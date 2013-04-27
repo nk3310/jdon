@@ -204,6 +204,20 @@
 				</configuration>
 			</plugin>
 
+			<!-- source attach plugin -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>attach-sources</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			
 			<!-- war打包插件, 设定war包名称不带版本号 -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
