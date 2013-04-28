@@ -4,3 +4,6 @@
 .settings/
 target/
 logs/
+*.bak
+
+!/src/main/java/com/jdon/bussinessproxy/target
